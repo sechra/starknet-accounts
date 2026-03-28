@@ -27,7 +27,7 @@ func constructor{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_p
     pub_key : EcPoint
 ):
     public_key.write(pub_key)
-    return ()
+    return (0)
 end
 
 ####################
